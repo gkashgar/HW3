@@ -34,15 +34,14 @@ L count: mean 0.0 sd 0.0
     115 rRNA
      32 snRNA
 
-     
         cut -f 1 dmel-all-r6.24.gtf | sort | uniq -c
   97461 2L
  110522 2R
  101180 3L
  126710 3R
    7839 4
-    151 mitochondrion_genome
-     67 rDNA
-     43 Unmapped_Scaffold_8_D1580_D1567
   97543 X
     639 Y
+
+    
+    
