@@ -12,10 +12,29 @@ L count: mean 0.0 sd 0.0
 %0.00 masked total, %0.00 masked real
 
         wget ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/current/gtf/dmel-all-r6.24.gtf.gz
-         md5sum dmel-all-r6.24.gtf.gz
+        md5sum dmel-all-r6.24.gtf.gz
 5cd5dcfbfff952ea7ce89e26cba89bbd  dmel-all-r6.24.gtf.gz
-        
-        gunzip dmel-all-r6.24.gtf.gz
+       
+      gunzip dmel-all-r6.24.gtf.gz
+      grep -v "^#" dmel-all-r6.24.gtf | \cut -f3 | \sort | \uniq -c | \sort -rn
+ 187315 exon
+ 161014 CDS
+  46339 5UTR
+  33358 3UTR
+  30591 start_codon
+  30533 stop_codon
+  30507 mRNA
+  17772 gene
+   2961 ncRNA
+    485 miRNA
+    334 pseudogene
+    312 tRNA
+    299 snoRNA
+    262 pre_miRNA
+    115 rRNA
+     32 snRNA
+
+     
         cut -f 1 dmel-all-r6.24.gtf | sort | uniq -c
   97461 2L
  110522 2R
