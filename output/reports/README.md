@@ -1,4 +1,4 @@
-faSize dana-all-chromosome-r1.06.fasta 
+    faSize dana-all-chromosome-r1.06.fasta 
 230993012 bases (17074195 N's 213918817 real 213918817 upper 0 lower) in 13749 sequences in 1 files
 Total size: mean 16800.7 sd 387178.2 min 55 (scaffold_13714) max 23697760 (scaffold_13340) median 1517
 N count: mean 1241.8 sd 9836.0
