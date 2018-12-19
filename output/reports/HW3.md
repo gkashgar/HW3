@@ -11,6 +11,8 @@ U count: mean 15558.9 sd 382128.9
 L count: mean 0.0 sd 0.0
 %0.00 masked total, %0.00 masked real
 
+### I see the values here now. Seems like you did everything correct but did not download the correct assembly. You downloaded dana instead of dmel. Also please make sure you at least say where your readme file is for hw3. I kind of had to dig for this file. Other than that, good work.
+
         wget ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/current/gtf/dmel-all-r6.24.gtf.gz
         md5sum dmel-all-r6.24.gtf.gz
 5cd5dcfbfff952ea7ce89e26cba89bbd  dmel-all-r6.24.gtf.gz
